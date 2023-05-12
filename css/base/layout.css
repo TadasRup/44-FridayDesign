@@ -42,6 +42,10 @@
     margin-top: 30px;
   }
 
+  .hero-text {
+    font-size: 40px;
+  }
+
   .faq-container {
     display: flex;
     flex-direction: column;
@@ -131,6 +135,7 @@
   text-decoration: none;
   font-weight: bold;
 }
+
 
 .button2 {
   display: inline-block;
