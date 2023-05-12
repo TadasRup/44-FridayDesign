@@ -18,12 +18,30 @@
   .navigator {
     display: none;
     word-spacing: 30px;
+    margin-top: 20px;
   }
 
   .content-width {
     padding: 0 30px;
   }
-  
+
+  .hero {
+    background-image: url('/img/heroimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    gap: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
+
   @media only screen and (min-width: 600px) {
     .content-width {
       max-width: 1346px;
@@ -44,6 +62,10 @@
 
     .navigator {
         display: block;
+    }
+
+    .hero {
+      height: 665px;
     }
   }
 
@@ -68,4 +90,22 @@
 
 .choose-us {
     text-align: center;
+}
+
+.button1 {
+  display: inline-block;
+  padding: 0.7em 2.5em;
+  background-color: #080808;
+  color: #f5f4f7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 0.7em;
+  background-color: #f5f4f7;
+  color: #080808;
+  text-decoration: none;
+  
 }
