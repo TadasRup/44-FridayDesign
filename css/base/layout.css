@@ -46,6 +46,10 @@
     font-size: 40px;
   }
 
+  .paragraph{
+    margin-top: 55px;
+  }
+
   .faq-container {
     display: flex;
     flex-direction: column;
@@ -67,6 +71,47 @@
   .faq {
     margin-bottom: 90px;
   }
+
+.newsletter{
+  text-align: center;
+  justify-content: center;
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  margin-top: 80px;
+  justify-content: center;
+  gap: 15px
+
+}
+
+.form label {
+  display: none;
+  border-color: 0.2rem solid #000000;
+
+}
+.form input,
+.form textarea {
+  padding: 0.6em 3em;
+  border-color: 0.1rem solid #000000;
+}
+
+.form::placeholder{
+  font-style: italic;
+
+}
+
+.button5{
+  display: inline-block;
+  padding: 0.7em 1rem;
+  background-color: #141414;
+  color: #f5f4f7;
+  text-decoration: none;
+}
 
   @media only screen and (min-width: 600px) {
     .content-width {
