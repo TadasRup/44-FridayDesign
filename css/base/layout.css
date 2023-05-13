@@ -51,6 +51,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 30px;
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 70px;
   }
   
   .faq-item {
@@ -62,7 +64,7 @@
     width: 319px;
   }
 
-  .duk {
+  .faq {
     margin-bottom: 90px;
   }
 
@@ -120,7 +122,6 @@
     color: black;
     justify-content: space-between;
     font-size: larger;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .link:hover {
@@ -133,7 +134,7 @@
 
 .button1 {
   display: inline-block;
-  padding: 0.7em 2.5em;
+  padding: 0.7em 2em;
   background-color: #141414;
   color: #f5f4f7;
   text-decoration: none;
@@ -147,7 +148,7 @@
 
 .button2 {
   display: inline-block;
-  padding: 0.7em;
+  padding: 0.7em 2.5rem;
   background-color: #141414;
   color: #f5f4f7;
   text-decoration: none;
